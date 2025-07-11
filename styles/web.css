@@ -72,8 +72,11 @@ nav h1{
   padding: 8px;
   margin:0 265px;
   
-
 }
+.btn-primary:hover{
+  background-color: rgb(212, 180, 97);
+}
+
 
 section li { list-style: none;
 align-items: center;}
@@ -170,3 +173,31 @@ font-size: 20px;
   color: #252432;
 }
 
+.get-in{
+  display: ;
+  
+  padding: 106px 105px;
+}
+
+.childone{
+  width: 578px;
+  margin: 0 200px;
+}
+.childone h3{
+  font-size: 50px;
+}
+.child2{
+  border: none;
+}
+.child2 input, textarea{
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.187);
+}
+
+.getin-container{
+  display: flex;
+  gap: 115px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
