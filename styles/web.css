@@ -1,4 +1,4 @@
-
+body{ background-color: #4d47ff0a;}
 .header{
   background-image: url('../Image/Hero-bg.png');
   margin: 0;
@@ -173,33 +173,54 @@ font-size: 20px;
   color: #252432;
 }
 
-.get-in{
-  display: ;
-  
-  padding: 106px 105px;
+/*Get in section*/
+.get-in-touch{
+  width: 1140px;
+  height: 632px;
+  padding: 0 71px;
 }
+.lets-getin h3{
+  font-size: 65px;
+  font-weight: bold;
 
-.childone{
-  width: 578px;
-  margin: 0 200px;
+  color: #000000;
 }
-.childone h3{
-  font-size: 50px;
+.form-item{
+  
+  padding: 0 71px;
+  
 }
-.child2{
-  border: none;
+.form-item label {
+  color: black;
+  font-size: 18px;
+  font-weight:medium;
+
 }
-.child2 input, textarea{
+input{font-size: 18px;
+  font-weight:medium;
   border: 1px solid;
   border-radius: 5px;
-  border-color: rgba(0, 0, 0, 0.187);
-}
+  padding: 25px 10px;
+  width: 400px;
+  
 
-.getin-container{
+}
+textarea{
+  color: #252432;
+  width: 400px;
+  height: 70px;
+   font-size: 18px;
+  font-weight:medium;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 25px 10px;
+
+}
+.container-touch{
   display: flex;
   gap: 115px;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  padding: 150px 220px;
+  justify-content: center;
 }
 
 /*footer*/
