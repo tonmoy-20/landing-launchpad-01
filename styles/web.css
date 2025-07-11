@@ -1,12 +1,7 @@
 body{ background-color: #4d47ff0a;}
-.header{
-  background-image: url('../Image/Hero-bg.png');
-  margin: 0;
-  margin-top: 0;
-  max-width: 1400px;
-  max-height: 698px;
   
-}
+  
+
 /*font style*/
 .open-sans-inter {
   font-family: "Open Sans", sans-serif;
@@ -38,6 +33,7 @@ nav ul li a {
   text-decoration: none;
 }
 nav{
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -60,6 +56,15 @@ nav h1{
   border: none;
   border-radius: 8px;
   
+}
+.btn-primary:hover{
+  background-color: rgb(228, 145, 115);
+  cursor: pointer;}
+  img {
+    cursor: pointer;
+  }
+nav{
+  cursor: pointer;
 }
 
 /*header text*/
@@ -84,6 +89,13 @@ text-align: center;}
 .header-content ul{
   align-items: center;
 }
+.header{
+  background-image: url('../Image/Hero-bg.png');
+  margin: 0;
+  margin-top: 0;
+  max-width: 1400px;
+  max-height: 698px;
+  background-repeat: repeat;}
 
 /*card*/
 .card-01{
@@ -203,6 +215,7 @@ input{font-size: 18px;
   
 
 }
+
 textarea{
   color: #252432;
   width: 400px;
@@ -254,4 +267,5 @@ textarea{
   width: 500px;
   height: 212px;
   padding: 105px 455px;
+
 }
