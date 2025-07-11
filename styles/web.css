@@ -201,3 +201,38 @@ font-size: 20px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/*footer*/
+.headline{
+  margin-bottom: 7px;
+  font-size: 100px;
+  font-weight: 900px;
+  color: #4E47FF;
+  text-align: center;
+}
+.footertext p{
+  
+  text-align: center;
+  color: #8987A1;
+}
+.footertext ul li {
+  list-style: none;
+}
+.footertext li a {
+  text-decoration: none;
+  color: #8987A1;
+}
+.footertext ul{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.footer{
+  background-color: #ffffff;
+  width: 500px;
+  height: 212px;
+  padding: 105px 455px;
+}
