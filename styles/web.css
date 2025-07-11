@@ -3,7 +3,7 @@ body{ background-color: #4d47ff0a;}
   background-image: url('../Image/Hero-bg.png');
   margin: 0;
   margin-top: 0;
-  max-width: 1440px;
+  max-width: 1400px;
   max-height: 698px;
   
 }
@@ -28,7 +28,7 @@ body{ background-color: #4d47ff0a;}
     "wdth" 100;
 }
 .body{
-  margin-top: ;
+  margin-top: 0;
 }
 /*nav style*/
 nav ul li{
@@ -62,28 +62,26 @@ nav h1{
   
 }
 
-/*main content*/
-.main-content {
-  font-size: 60px;
+/*header text*/
+.title{
+  font-size: 65px;
   font-weight: bold;
   color: #252432;
-  justify-content: center;
   text-align: center;
-  padding: 8px;
-  margin:0 265px;
+  padding: 0 37px;margin-top: 158px;
+}
+.header-content ul li {
+  list-style: none;
+}
+.header-content li a{ text-decoration: none;
+text-align: center;}
+.header-content li a button{
   
-}
-.btn-primary:hover{
-  background-color: rgb(212, 180, 97);
-}
+  margin-left: 470px;
+  margin-bottom: 152px;
 
-
-section li { list-style: none;
-align-items: center;}
-section li a{ text-decoration: none;
 }
-
-nav li a button{
+.header-content ul{
   align-items: center;
 }
 
