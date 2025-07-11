@@ -1,0 +1,124 @@
+
+.header{
+  background-image: url('../Image/Hero-bg.png');
+  margin: 0;
+  margin-top: 0;
+  max-width: 1440px;
+  max-height: 698px;
+  
+}
+/*font style*/
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.open-sans-raleway{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.body{
+  margin-top: ;
+}
+/*nav style*/
+nav ul li{
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+
+nav h1{
+  font-size: 34px;
+  font-weight: 900px;
+  color: #4E47FF;
+}
+/*button*/
+.btn-primary{
+  background-color: #4E47FF;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+/*main content*/
+.main-content {
+  font-size: 60px;
+  font-weight: bold;
+  color: #252432;
+  justify-content: center;
+  text-align: center;
+  padding: 8px;
+  margin:0 265px;
+  
+
+}
+
+section li { list-style: none;
+align-items: center;}
+section li a{ text-decoration: none;
+}
+
+.btn-list{
+  align-items: center;
+  
+}
+/*card*/
+.card-01{
+  width: 250px;
+}
+.card-02{
+  width: 250px;
+}
+.card-01 h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: #252432;
+}
+.card-01 p{
+  font-size:10px;
+  font-weight: 400px;
+  color: #252432;
+  justify-content: left;
+}
+.card-02{
+  width: 515px;
+  
+}
+.card-02 img{
+  width: 80%;
+  border-radius: 48px;
+}
+.card-container-1{
+  max-width: 1140px;
+  max-height: 325px;
+  display: flex;
+  gap: 220px;
+  justify-content: center;
+  margin: 116px 200px;
+}
+.card-container-1{
+  display: flex;
+  justify-content: center;
+}
