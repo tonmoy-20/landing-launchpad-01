@@ -1,4 +1,5 @@
-body{ background-color: #4d47ff0a;}
+body{ background-color: #4d47ff0a;
+margin: 0 auto;}
   
   
 
@@ -182,6 +183,45 @@ font-size: 20px;
   font-weight: 400px;
   color: #252432;
 }
+/*reviw*/
+
+
+
+.card-heading{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  text-align: center;
+
+}
+.card-container-reviw{
+  display:flex;
+  gap: 20px;
+}
+.card{
+  width: 360px;
+  height: 240px;
+  background-color: #FFFFFF;
+  
+  border-radius: 14px;
+  padding: 24px 24px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.174);
+  margin: 0 auto;
+}
+.card img{
+  border-radius: 50px;
+}
+.pic-name{
+  padding: 10px 10px;
+  display: flex;
+  gap: 15px;
+  
+  align-items: left;
+}
+.date{
+  color: #252432;
+}
+
 
 /*Get in section*/
 .get-in-touch{
