@@ -80,19 +80,19 @@ align-items: center;}
 section li a{ text-decoration: none;
 }
 
-.btn-list{
+nav li a button{
   align-items: center;
-  
 }
+
 /*card*/
 .card-01{
-  width: 250px;
+  width: 300px;
 }
 .card-02{
-  width: 250px;
+  width: 300px;
 }
 .card-01 h3{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   color: #252432;
 }
@@ -122,3 +122,51 @@ section li a{ text-decoration: none;
   display: flex;
   justify-content: center;
 }
+
+.bap-container{
+  max-width: 1140px;
+  max-height: 305px;
+  background-color: rgb(215, 215,255);
+  padding: 50px 80px;
+  margin-top: 116px;
+  margin-right: 160px;
+  margin-left: 160px;
+  border: none;
+  border-radius: 25px;
+}
+
+.section-part2{
+  display: flex;
+  justify-content: center;
+  
+}
+.bap-container h2{
+ 
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+
+}
+.container-2{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.c-1 h3{
+  
+  font-size: 80px;
+  font-weight: bold;
+  align-items: center;
+  color: #4E47FF;
+  margin-bottom: 8px;
+}
+.c-1 p{
+font-size: 20px;
+  font-weight: 400px;
+  color: #252432;
+}
+
